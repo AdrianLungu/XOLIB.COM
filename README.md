@@ -6,3 +6,5 @@ Google App Engine running on a Golang instance. All confidential information sho
 be omited from the documents in this repo and may be stored in a private Gist.
 Please send any confidental info for this project to Seth Moeckel (Digitalblueeye)
 for stashing.
+
+Additionally, Refer to Seth for any info about the analytics tracking, the reference etc for this website.
