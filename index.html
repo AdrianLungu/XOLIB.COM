@@ -1,0 +1,124 @@
+<html>
+    <!-- Color Pallet
+        cyan: 5bdccb
+        orange: ffa811
+        red: ff4545
+        yellow: edd533
+        purple: ea5ece
+    -->
+    <head>
+        <link rel="icon" href="Assets/XOMINI.png">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <style>
+        @font-face {
+            font-family:pier;
+            src: url(Assets/pier-regular.otf)
+        }
+        @font-face {
+            font-family:pier-bold;
+            src: url(Assets/pier-bold.otf)
+        }
+        
+        form {
+            display: inline-block;
+        }
+        
+        #logo {
+            height: 162.5px;
+            pointer-events: none;
+        }
+        
+        body {
+            margin-left: 25px;
+            margin-top: 25px;
+            margin-right: 25px;
+        }
+        
+        .title {
+            color: 5bdccb;
+            font-size: 25;
+            font-family: pier;
+        }
+        
+        .subtitle {
+            color: 5bdccb;
+            font-size: 22.5;
+            font-family: pier;
+        }
+        
+        .link {
+            color: 5bdccb;
+            font-size: 20;
+            font-family: pier-bold;
+            background-color: transparent;
+            border-width: 0;
+            border-bottom-width: 2px;
+            border-color: transparent;
+            padding: 1px;
+            outline-style: none;
+        }
+        
+        .link:hover {
+            border-bottom-width: 2px;
+            border-color: 5bdccb;
+            padding: 1px;
+        }
+        
+        .textbody {
+            color: rgba(115,115,115,1);
+            font-size: 18.75;
+            font-family: pier;
+            line-height: 28px;
+        }
+
+    </style>
+    <body>
+        <img id="logo" src="Assets/XoLogo.png" href="index.html"/> <!--TODO Fix link on image -->
+        <h1 class="title">
+            A library for creating desktop apps and games in Go.
+        </h1>
+        <div class="leftnav">
+            <span>
+                <form  action="learn.html">
+                    <input class="link" type="submit" value="Learn">
+                </form>
+                <form  action="ref.html">
+                    <input class="link" type="submit" value="Reference">
+                </form>
+                <form  action="packages.html">
+                    <input class="link" type="submit" value="Packages">
+                </form>
+                <form  action="exhibit.html">
+                    <input class="link" type="submit" value="Exhibition">
+                </form>
+                <form  action="contrib.html">
+                    <input class="link" type="submit" value="Contribute">
+                </form>
+            </span>
+            
+        </div>
+        <div>
+            <p class="textbody">
+            XO is a library aimed at Designers, Gamers, Developers and Go Beginners with the intention of easing the hastle of application development in Go. XO provides packages for file input/output, 2D Graphics (3D coming soon!), Animation, Physics, GUI, HTML & CSS Styling, User Interaction, Windowing, OS Utilities, AV, External devices and more. XO Users aren't forced to choose between speed and simplicity because XO is based on high-performance libraries such as GLFW and OpenGL!        </p>
+            
+            <hr class="separator"/>
+            
+            <h2 class="subtitle">
+                Contributers: 
+            </h2>
+            <p class="textbody">
+                <a class="textbody" href="contrib.html">None yet... Wanna be the first?</a>
+            </p>
+            <br/>
+            
+                <p class="textbody">
+                The XO library was created by Seth Moeckel and is maintained by a community of collaborators with support from Extreme Interactive Ltd. <br/><br/>Copyright XO 2016, All rights reserved.
+                </p>
+            
+        </div>
+        
+        
+        
+    </body>
+</html>

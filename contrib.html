@@ -1,0 +1,123 @@
+<html>
+    <head>
+        <link rel="icon" href="Assets/XOMINI.png">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <style>
+        @font-face {
+            font-family:pier;
+            src: url(Assets/pier-regular.otf)
+        }
+        @font-face {
+            font-family:pier-bold;
+            src: url(Assets/pier-bold.otf)
+        }
+        
+        form {
+            display: inline-block;
+        }
+        
+        #logo {
+            height: 162.5px;
+            /*pointer-events: none;*/
+        }
+        
+        body {
+            margin-left: 25px;
+            margin-top: 25px;
+            margin-right: 25px;
+        }
+        
+        .title {
+            color: 5bdccb;
+            font-size: 25;
+            font-family: pier;
+        }
+        
+        .subtitle {
+            color: 5bdccb;
+            font-size: 22.5;
+            font-family: pier;
+        }
+        
+        .link {
+            color: 5bdccb;
+            font-size: 20;
+            font-family: pier-bold;
+            background-color: transparent;
+            border-width: 0;
+            border-bottom-width: 2px;
+            border-color: transparent;
+            padding: 1px;
+            outline-style: none;
+        }
+        
+        .link:hover {
+            border-bottom-width: 2px;
+            border-color: 5bdccb;
+            padding: 1px;
+        }
+        
+        .textbody {
+            color: rgba(115,115,115,1);
+            font-size: 18.75;
+            font-family: pier;
+            line-height: 28px;
+        }
+        
+        #contrib {
+            border-bottom-width: 2px;
+            border-color: 5bdccb;
+            padding: 1px;
+        }
+
+    </style>
+    <body>
+        <a href="index.html">
+            <img id="logo" src="Assets/XoLogo.png" href="index.html"/>
+        </a> <!--TODO Fix link on image -->
+        <h1 class="title">
+            A library for creating desktop apps and games in Go.
+        </h1>
+        <div class="leftnav">
+            <span>
+                <form  action="learn.html">
+                    <input class="link" type="submit" value="Learn">
+                </form>
+                <form  action="ref.html">
+                    <input class="link" type="submit" value="Reference">
+                </form>
+                <form  action="packages.html">
+                    <input class="link" type="submit" value="Packages">
+                </form>
+                <form  action="exhibit.html">
+                    <input class="link" type="submit" value="Exhibition">
+                </form>
+                
+                    <input class="link" id="contrib" type="submit" value="Contribute">
+                
+            </span>
+            
+        </div>
+        <div>
+            <p class="textbody">
+                We sincerely appreciate your interest in contributing to XO lib and would like to do anything we can to make your experience as smooth as possible. <br/><br/> Feel free to email questions to: 
+                
+                <a style="color:ea5ece" class="textbody" href="mailto:hello@xo.io">hello@xo.io</a>
+                <br/>
+                Find us on 
+                <a style="color:ffa811" class="textbody" href="http://github.com/XO-Lib">Github!</a>
+                <br/>
+                Or join our <a style="color:ff4545" class="textbody" href="http://xo-hq.slack.com">Slack Community!</a>
+            </p>
+            
+            <br/>
+            <hr/>
+            <br/>
+            
+                <p class="textbody">
+                The XO library was created by Seth Moeckel and is maintained by a community of collaborators with support from Extreme Interactive Ltd. <br/><br/>Copyright XO 2016, All rights reserved.
+                </p>
+        </div>
+    </body>
+</html>
