@@ -1,124 +1,170 @@
 <html>
-    <!-- Color Pallet
-        cyan: 5bdccb
-        orange: ffa811
-        red: ff4545
-        yellow: edd533
-        purple: ea5ece
-    -->
-    <head>
-        <link rel="icon" href="Assets/XOMINI.png">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-    </head>
-    <style>
-        @font-face {
-            font-family:pier;
-            src: url(Assets/pier-regular.otf)
-        }
-        @font-face {
-            font-family:pier-bold;
-            src: url(Assets/pier-bold.otf)
-        }
-        
-        form {
-            display: inline-block;
-        }
-        
-        #logo {
-            height: 162.5px;
-            pointer-events: none;
-        }
-        
-        body {
-            margin-left: 25px;
-            margin-top: 25px;
-            margin-right: 25px;
-        }
-        
-        .title {
-            color: 5bdccb;
-            font-size: 25;
-            font-family: pier;
-        }
-        
-        .subtitle {
-            color: 5bdccb;
-            font-size: 22.5;
-            font-family: pier;
-        }
-        
-        .link {
-            color: 5bdccb;
-            font-size: 20;
-            font-family: pier-bold;
-            background-color: transparent;
-            border-width: 0;
-            border-bottom-width: 2px;
-            border-color: transparent;
-            padding: 1px;
-            outline-style: none;
-        }
-        
-        .link:hover {
-            border-bottom-width: 2px;
-            border-color: 5bdccb;
-            padding: 1px;
-        }
-        
-        .textbody {
-            color: rgba(115,115,115,1);
-            font-size: 18.75;
-            font-family: pier;
-            line-height: 28px;
-        }
+<!-- Color Pallet
+    cyan: 5bdccb
+    orange: ffa811
+    red: ff4545
+    yellow: edd533
+    purple: ea5ece
+-->
+<head>
 
-    </style>
-    <body>
-        <img id="logo" src="Assets/XoLogo.png" href="index.html"/> <!--TODO Fix link on image -->
-        <h1 class="title">
-            A library for creating desktop apps and games in Go.
-        </h1>
-        <div class="leftnav">
-            <span>
-                <form  action="learn.html">
-                    <input class="link" type="submit" value="Learn">
-                </form>
-                <form  action="ref.html">
-                    <input class="link" type="submit" value="Reference">
-                </form>
-                <form  action="packages.html">
-                    <input class="link" type="submit" value="Packages">
-                </form>
-                <form  action="exhibit.html">
-                    <input class="link" type="submit" value="Exhibition">
-                </form>
-                <form  action="contrib.html">
-                    <input class="link" type="submit" value="Contribute">
-                </form>
-            </span>
-            
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
+
+    <link rel="icon" href="assets/images/XOMINI.png">
+
+    <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/app.css">
+
+
+</head>
+
+<body>
+
+<a href="https://github.com/XO-Lib"><img style="position: absolute; top: 0; right: 0; border: 0;"
+                                         src="https://camo.githubusercontent.com/38ef81f8aca64bb9a64448d0d70f1308ef5341ab/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f6461726b626c75655f3132313632312e706e67"
+                                         alt="Fork me on GitHub"
+                                         data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png"></a>
+
+<header id="header">
+
+    <div class="row">
+
+        <div class="col-md-6 col-md-offset-3">
+
+            <div class="logo center-block">
+                <div class="xo">
+                    XO
+                </div>
+            </div>
+
+            <h3 class="text-center title">
+                The Go-to library for creating games and desktop apps!
+            </h3>
+
         </div>
-        <div>
-            <p class="textbody">
-            XO is a library aimed at Designers, Gamers, Developers and Go Beginners with the intention of easing the hastle of application development in Go. XO provides packages for file input/output, 2D Graphics (3D coming soon!), Animation, Physics, GUI, HTML & CSS Styling, User Interaction, Windowing, OS Utilities, AV, External devices and more. XO Users aren't forced to choose between speed and simplicity because XO is based on high-performance libraries such as GLFW and OpenGL!        </p>
-            
-            <hr class="separator"/>
-            
-            <h2 class="subtitle">
-                Contributers: 
-            </h2>
-            <p class="textbody">
-                <a class="textbody" href="contrib.html">None yet... Wanna be the first?</a>
+
+    </div>
+</header>
+
+<section class="row">
+
+    <article class="col-md-6 col-md-offset-3">
+
+        <header class="text-center">
+            What is it ?
+        </header>
+
+        <div class="content">
+
+            <p>
+
+                XO is a library aimed at Designers, Gamers, Developers and Go Beginners with the intention of easing the
+                hassle
+                of application development in Go. <br> <br>
+
+                XO provides packages for:
             </p>
-            <br/>
-            
-                <p class="textbody">
-                The XO library was created by Seth Moeckel and is maintained by a community of collaborators with support from Extreme Interactive Ltd. <br/><br/>Copyright XO 2016, All rights reserved.
-                </p>
-            
+
+            <ul>
+                <li>
+                    File input/output
+                </li>
+                <li>
+                    2D Graphics (3D Coming soon!)
+                </li>
+                <li>
+                    Animation
+                </li>
+                <li>
+                    Physics
+                </li>
+                <li>
+                    GUI
+                </li>
+                <li>
+                    HTML & CSS Styling
+                </li>
+                <li>
+                    User Interaction
+                </li>
+                <li>
+                    Windowing
+                </li>
+                <li>
+                    OS Utilities
+                </li>
+                <li>
+                    A/V
+                </li>
+                <li>
+                    External devices
+                </li>
+                <li>
+                    And more...
+                </li>
+            </ul>
+
+            <p>
+                XO users aren't forced to choose between speed and simplicity because XO is based on high-performance
+                libraries such as GLFW and OpenGL!
+
+            </p>
         </div>
-        
-        
-        
-    </body>
+
+    </article>
+
+    <article class="col-md-6 col-md-offset-3">
+
+        <header class="text-center">
+            Contributors
+        </header>
+
+        <div class="content">
+
+            <p>
+                As the project is still in early stage, you can be one of the <b>first</b> contributors to shape it!
+            </p>
+
+            <br>
+
+            <p class="text-center logos">
+                <a href="hello@xo.io">
+                    <img src="http://crepesforchange.com/wp-content/uploads/2015/08/email-logo-black-png-pictures-1.png">
+                </a>
+                <a href="https://github.com/XO-Lib">
+                    <img src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png">
+                </a>
+                <a href="http://xo-hq.slack.com">
+                    <img src="http://eithanshavit.com/assets/img/posts/Slack/slack_logo.png">
+                </a>
+            </p>
+
+        </div>
+
+    </article>
+
+    <article class="col-md-6 col-md-offset-3">
+
+        <header></header>
+
+        <div class="content text-center">
+            The XO library was created by Seth Moeckel and is maintained by a community of collaborators with support
+            from
+            Extreme Interactive Ltd.
+
+            <br/>
+            <br/>
+
+            <p class="copyright">
+                Copyright XO 2016, All rights reserved.
+            </p>
+        </div>
+
+    </article>
+
+</section>
+
+</body>
 </html>

@@ -1,0 +1,21 @@
+{
+  "name": "xolib",
+  "homepage": "https://github.com/AdrianLungu/XOLIB.COM",
+  "authors": [
+    "Adrian Lungu <contact@adrianlungu.com>"
+  ],
+  "description": "",
+  "main": "index.html",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}

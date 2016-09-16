@@ -1,0 +1,40 @@
+html {
+  font-family: 'Open Sans', sans-serif; }
+
+#header {
+  color: white;
+  background: #50b4b4;
+  padding: 48px; }
+  #header .logo {
+    width: 256px;
+    height: 256px;
+    border: solid white 16px;
+    position: relative; }
+    #header .logo .xo {
+      position: absolute;
+      top: 0;
+      right: 12px;
+      font-size: 48px; }
+  #header .title {
+    margin-top: 32px;
+    font-weight: 300; }
+
+section.row {
+  color: #3ca0aa; }
+  section.row .col-md-6 {
+    position: relative;
+    margin-top: 48px;
+    margin-bottom: 48px; }
+    section.row .col-md-6 header {
+      font-size: 32px;
+      font-weight: 300; }
+    section.row .col-md-6 .content {
+      margin-top: 16px;
+      font-size: 16px; }
+    section.row .col-md-6 .logos img {
+      width: 64px;
+      height: auto; }
+    section.row .col-md-6 .copyright {
+      font-size: 12px; }
+
+/*# sourceMappingURL=app.css.map */

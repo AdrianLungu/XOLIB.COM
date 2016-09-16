@@ -1,0 +1,75 @@
+$color: #50b4b4;
+$textColor: #3ca0aa;
+
+html {
+    font-family: 'Open Sans', sans-serif;
+}
+
+#header {
+
+    color: white;
+    background: $color;
+
+    padding: 48px;
+
+    .logo {
+
+        width: 256px;
+        height: 256px;
+        border: solid white 16px;
+
+        position: relative;
+
+        .xo {
+            position: absolute;
+            top: 0;
+            right: 12px;
+            font-size: 48px;
+        }
+
+    }
+
+    .title {
+        margin-top: 32px;
+        font-weight: 300;
+    }
+
+}
+
+section {
+
+    &.row {
+
+        color: $textColor;
+
+        .col-md-6 {
+
+            position: relative;
+            margin-top: 48px;
+            margin-bottom: 48px;
+
+            header {
+                font-size: 32px;
+                font-weight: 300;
+            }
+
+            .content {
+                margin-top: 16px;
+                font-size: 16px;
+            }
+
+            .logos {
+                img {
+                    width: 64px;
+                    height: auto;
+                }
+            }
+
+            .copyright {
+                font-size: 12px;
+            }
+
+        }
+
+    }
+}
